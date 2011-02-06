@@ -1,4 +1,4 @@
-package com.moc.oop.examples.part0.example1;
+package com.moc.oop.examples.part0.example4;
 
 /**
  * Created by IntelliJ IDEA.
@@ -7,7 +7,7 @@ package com.moc.oop.examples.part0.example1;
  * Time: 7:34 PM
  * To change this template use File | Settings | File Templates.
  */
-public class XMLDecorator extends AbstractDecorator{
+public class XMLDecorator extends AbstractDecorator {
 
 
     public XMLDecorator(NamedCalculator calculator){

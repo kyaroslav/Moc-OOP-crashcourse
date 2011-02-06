@@ -1,4 +1,6 @@
-package com.moc.oop.examples.part0.example1;
+package com.moc.oop.examples.part0.example4;
+
+import com.moc.oop.examples.part0.example1.Calculator;
 
 /**
  * Created by IntelliJ IDEA.
@@ -7,7 +9,7 @@ package com.moc.oop.examples.part0.example1;
  * Time: 7:39 PM
  * To change this template use File | Settings | File Templates.
  */
-abstract class NamedCalculator extends Calculator{
+public abstract class NamedCalculator extends Calculator {
 
     protected String TYPE_NAME;
 
@@ -16,10 +18,15 @@ abstract class NamedCalculator extends Calculator{
         this.TYPE_NAME=null;
     }
 
+    public NamedCalculator(){
+        this(0,0);
+    }
+
+
+
     public String getTypeName(){
         return TYPE_NAME;
     }
-
 
 
 }

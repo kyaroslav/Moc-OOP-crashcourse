@@ -20,7 +20,7 @@ public class MultCalculator extends Calculator {
 
 
     @Override
-    double calculate() {
+    public double calculate() {
         return this.operandA*this.operandB;
     }
 }

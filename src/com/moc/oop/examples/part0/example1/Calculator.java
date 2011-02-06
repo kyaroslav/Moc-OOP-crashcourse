@@ -7,7 +7,7 @@ package com.moc.oop.examples.part0.example1;
  * Time: 5:57 PM
  * To change this template use File | Settings | File Templates.
  */
-abstract class Calculator {
+public abstract class Calculator {
 
     protected double operandA;
     protected double operandB;
@@ -22,7 +22,7 @@ abstract class Calculator {
         this.operandB=operandB;
     }
 
-    abstract double calculate();
+    public abstract double calculate();
 
 
 }

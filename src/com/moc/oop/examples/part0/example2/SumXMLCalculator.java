@@ -1,4 +1,6 @@
-package com.moc.oop.examples.part0.example1;
+package com.moc.oop.examples.part0.example2;
+
+import com.moc.oop.examples.part0.example1.SumCalculator;
 
 /**
  * Created by IntelliJ IDEA.
@@ -7,7 +9,7 @@ package com.moc.oop.examples.part0.example1;
  * Time: 7:14 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SumXMLCalculator extends SumCalculator implements XMLCalculator{
+public class SumXMLCalculator extends SumCalculator {
 
     public SumXMLCalculator(double operandA, double operandB){
         super(operandA,operandB);

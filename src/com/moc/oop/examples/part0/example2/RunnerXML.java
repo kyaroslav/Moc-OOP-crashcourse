@@ -1,4 +1,4 @@
-package com.moc.oop.examples.part0.example1;
+package com.moc.oop.examples.part0.example2;
 
 /**
  * Created by IntelliJ IDEA.

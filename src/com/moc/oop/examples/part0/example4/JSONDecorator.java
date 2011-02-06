@@ -1,4 +1,4 @@
-package com.moc.oop.examples.part0.example1;
+package com.moc.oop.examples.part0.example4;
 
 /**
  * Created by IntelliJ IDEA.
@@ -7,7 +7,7 @@ package com.moc.oop.examples.part0.example1;
  * Time: 12:50 AM
  * To change this template use File | Settings | File Templates.
  */
-public class JSONDecorator extends AbstractDecorator{
+public class JSONDecorator extends AbstractDecorator {
     public JSONDecorator(NamedCalculator calculator) {
         super(calculator);
     }
